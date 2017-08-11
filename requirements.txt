@@ -4,5 +4,4 @@ asyncio
 aiohttp
 websockets
 chardet
-flask
-os
+Flask==0.7.2
