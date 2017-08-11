@@ -1,1 +1,1 @@
-web: python pedl-bot.py
+web: python app.py
