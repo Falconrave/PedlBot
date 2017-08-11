@@ -1,2 +1,6 @@
 discord.py==0.14.3
 markovify
+asyncio
+aiohttp
+websockets
+chardet
