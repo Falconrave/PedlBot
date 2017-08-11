@@ -12,8 +12,6 @@ def hello():
     return "Hello world!"
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
 
     client = discord.Client()
     bot_token = 'MzQ1Njc3OTg0OTgxNTgxODI3.DG-zxA.ilaNlz-MKma2S-vt7wM4YlPZ3_0'
@@ -43,4 +41,7 @@ if __name__ == "__main__":
         await client.send_message(message.channel, new_mes)
 
     client.run(bot_token, bot=True)
+
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
 
