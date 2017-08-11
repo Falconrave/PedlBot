@@ -1,1 +1,1 @@
-worker: python pedl-bot.py
+web: python pedl-bot.py
