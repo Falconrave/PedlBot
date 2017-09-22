@@ -5,8 +5,8 @@ import random
 import re
 
 client = discord.Client()
-# invalid token
-bot_token = 'MzQ1Njc3OTg0OTgxNTgxODI3.DG-zxA.ilaNlz-MKma2S-vt7wM4YlPZ3'
+# valid token
+bot_token = 'MzQ1Njc3OTg0OTgxNTgxODI3.DKaptQ.DgNe6FygPeh4vV6VxlMGgBO4508'
 
 # Get raw text as string.
 with open("text.txt", "r+", encoding="utf8") as f:
