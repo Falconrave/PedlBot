@@ -6,7 +6,7 @@ import re
 
 client = discord.Client()
 # valid token
-bot_token = 'MzQ1Njc3OTg0OTgxNTgxODI3.DKaptQ.DgNe6FygPeh4vV6VxlMGgBO4508'
+bot_token = 'nah'
 
 # Get raw text as string.
 with open("text.txt", "r+", encoding="utf8") as f:
